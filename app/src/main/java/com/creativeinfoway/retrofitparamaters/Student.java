@@ -1,13 +1,18 @@
 package com.creativeinfoway.retrofitparamaters;
 
+import com.google.gson.annotations.Expose;
+import com.google.gson.annotations.SerializedName;
+
 /**
  * Created by Nitin on 09/08/17.
  */
 
 public class Student {
-
+    @SerializedName("id")
+    @Expose
     private String id;
-
+    @SerializedName("name")
+    @Expose
     private String name;
 
     public String getId() {
