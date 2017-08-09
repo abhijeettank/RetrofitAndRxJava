@@ -34,7 +34,6 @@ public class RecyclerAdapter extends RecyclerView.Adapter<RecyclerAdapter.Myhold
         Student student = list.get(position);
         holder.id.setText(student.getId());
         holder.name.setText(student.getName());
-
     }
 
     @Override
@@ -49,7 +48,6 @@ public class RecyclerAdapter extends RecyclerView.Adapter<RecyclerAdapter.Myhold
             super(itemView);
             id = itemView.findViewById(R.id.id);
             name = itemView.findViewById(R.id.name);
-
         }
     }
 }
